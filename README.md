@@ -1,3 +1,4 @@
+##WGCNA_coronary_artery_disease
 * This repository is created to generate reproducible results for WGCNA network construction and hub gene identification in coronary artery disease using data from GEO ([GSE20680](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE20680) and [GSE20681](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE20681)).
 
 * The diff.R script is used for data preprocessing and WGCNA.R script is used for downstream analysis.
