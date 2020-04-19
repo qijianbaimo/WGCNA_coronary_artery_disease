@@ -6,7 +6,7 @@
 
 * The scripts may be run interactively in RStudio - an IDE for R, or run with command line *Rscript diff.R* and *Rscript WGCNA.R*. It should be noted that the function *allowWGCNAThreads()* must be replaced by *enableWGCNAThreads()* when running the scripts in RStudio.
 
-* It will take about 4 minutes for data preprocessing (*Rscript diff.R*) and about 10 minutes for downstream analysis (*Rscript WGCNA.R*) on a Red Hat Linux platform with 8 cores and 16GB memory. Standard output and standard error produced by running the two scripts can be found in the **logs** directory.
+* It took about 4 minutes for data preprocessing (*Rscript diff.R*) and about 10 minutes for downstream analysis (*Rscript WGCNA.R*) on a Red Hat Linux platform with 8 cores and 16GB memory. Standard output and standard error produced by running the two scripts can be found in the **logs** directory.
 
 * Three major input files: (1) the gene expression matrix file (**RawDataNOCtrl.txt.gz**), (2) the group information of samples used in the study (**Clinic.txt**), and (3) the probe annotation file (**GPL4133_annot.txt**), are required to run the pipeline.
 
