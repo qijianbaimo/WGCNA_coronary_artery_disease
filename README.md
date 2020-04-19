@@ -2,7 +2,7 @@
 
 * This repository is created to generate reproducible results for WGCNA network construction and hub gene identification in coronary artery disease using data from GEO ([GSE20680](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE20680) and [GSE20681](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE20681)).
 
-* The diff.R script is used for data preprocessing and WGCNA.R script is used for downstream analysis. The scripts can be run in any operating systems (Windows, Linux, Mac, etc.) with RStudio/R and the dependent packages installed.
+* The **diff.R** script is used for data preprocessing and **WGCNA.R** is used for downstream analysis. The scripts can be run in any operating systems (Windows, Linux, Mac, etc.) with RStudio/R and the dependent packages installed.
 
 * The scripts may be run interactively in RStudio - an IDE for R, or run with command line *Rscript diff.R* and *Rscript WGCNA.R*. It will take about 4 minutes for data preprocessing (*Rscript diff.R*) and about 10 minutes for downstream analysis (*Rscript WGCNA.R*) on a Red Hat Linux platform with 8 cores and 16GB memory. Standard output and standard error produced by running the two scripts can be found in the **logs** directory.
 
