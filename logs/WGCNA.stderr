@@ -1,0 +1,43 @@
+Loading required package: dynamicTreeCut
+Loading required package: fastcluster
+
+Attaching package: ‘fastcluster’
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+
+
+Attaching package: ‘WGCNA’
+
+The following object is masked from ‘package:stats’:
+
+    cor
+
+
+Attaching package: ‘flashClust’
+
+The following object is masked from ‘package:fastcluster’:
+
+    hclust
+
+The following object is masked from ‘package:stats’:
+
+    hclust
+
+dev.new(): using pdf(file="Rplots1.pdf")
+dev.new(): using pdf(file="Rplots2.pdf")
+dev.new(): using pdf(file="Rplots3.pdf")
+Parsed with column specification:
+cols(
+  .default = col_character(),
+  Probe_Id = col_double(),
+  Col = col_double(),
+  Row = col_double(),
+  Control_Type = col_logical(),
+  Gene = col_double(),
+  Order = col_double()
+)
+See spec(...) for full column specifications.
+dev.new(): using pdf(file="Rplots4.pdf")
