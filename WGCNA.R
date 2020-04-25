@@ -7,7 +7,7 @@ options(stringsAsFactors = FALSE);
 
 #Read in the data
 femData = read.table(file="for_WGCNA_gene.txt",sep="\t",header=T);
-order_list = read.csv("For_gene_order.txt",sep="\t",header = F)[,1]
+order_list = read.table("For_gene_order.txt",sep="\t",header = F)[,1]
 femData<-femData[,order_list]
 
 Sample_inf=femData[,1:2]
